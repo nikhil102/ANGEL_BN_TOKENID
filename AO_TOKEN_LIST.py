@@ -14,7 +14,7 @@ import sys
 
 import logging
 
-logging.basicConfig(filename='ERROR.log', filemode='w', format='%(asctime)s %(name)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename=PATH.ERROR_LOG, filemode='w', format='%(asctime)s %(name)s - %(levelname)s - %(message)s')
 # logging.debug('This is a debug message')
 # logging.info('This is an info message')
 # logging.warning('This is a warning message')
